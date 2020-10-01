@@ -6,7 +6,9 @@ def insertionSort(arr):
            arr[j+1]=arr[j]
            j=j-1
         arr[j+1]=key
+
+#driver code.        
 arr=[12,11,13,15,6]
 insertionSort(arr)
 for i in range(len(arr)):
-    print( arr[i])
+    print(arr[i])
